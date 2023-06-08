@@ -1,0 +1,8 @@
+.shop-container_div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 25vh auto;
+    width: 80vw;
+    height: 50vh;
+    background-color: lightblue;
+}

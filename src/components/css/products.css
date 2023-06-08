@@ -1,0 +1,21 @@
+.products-container_div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background-color: antiquewhite;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.img-product {
+    width: 100%;
+    height: 70%;
+    background-color: blueviolet;
+}
